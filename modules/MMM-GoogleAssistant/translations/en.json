@@ -1,0 +1,24 @@
+{
+  "NO_RESPONSE" : "Sorry, I don't understand.",
+  "NO_AUDIO_RESPONSE" : " ",
+  "TOO_SHORT" : "Sorry, I don't understand.",
+  "CONVERSATION_ERROR" : "Conversation error. (misconfigured microphone)",
+  "QUERY_REPLY" : "Google Assistant will be activated",
+  "QUERY_HELP" : "You can command `Google Assistant` by text with this command.",
+
+  "STOP_HELP": "Stop Extented Display if running",
+  "STOP_EXT": "I stop Extented Display",
+
+  "DADDY": "daddy @bugsounet says... NO,NO AND NO !!!",
+
+  "GALoading": "Loading...",
+  "GAReady": "Ready!",
+  "GABegin": "Hi, how can i help?",
+  "GAContinue": "I'm listening to you...",
+  "GAErrorRecipe": "[FATAL] Error when loading this recipe: {VALUES}",
+  "GAErrorCredentials": "[FATAL] Assistant: credentials.json missing",
+  "GAErrorTokenGA": "[FATAL] Token Assistant: tokenGA.json missing",
+
+  "ShellExecError": "ShellExec return some Errors",
+  "ShellExecDone": "ShellExec executed sucessfully"
+}

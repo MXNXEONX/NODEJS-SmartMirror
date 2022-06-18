@@ -1,0 +1,60 @@
+/** Alert **/
+#EXT-Alert {
+  z-index:99999;
+  bottom:auto;
+  box-sizing:border-box;
+  font-family:"Roboto",sans-serif;
+  font-size:40px;
+  -webkit-font-smoothing:antialiased;
+  position:fixed;
+  overflow:hidden;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+#EXT-Alert.hidden {
+  display: none;
+}
+
+#EXT-Alert-popout div {
+  font-family:'Roboto',arial,sans-serif
+}
+
+#EXT-Alert-bar {
+  display:flex;
+  background-color: rgba(33,33,33,.99);
+  height:144px;
+  padding: 0px 30px 0 30px;
+  width:100%;
+  box-sizing:border-box;
+  white-space:nowrap;
+}
+
+.EXT-Alert-response {
+  color:#ffffff;
+  font-size:30px;
+  margin:auto 20px;
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+
+.EXT-Alert-icon {
+  margin-left: -70px;
+  Zoom: 35%;
+}
+
+#EXT-Alert-Displayer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#EXT-Alert-Sender {
+  align-self: flex-end;
+  font-size: 20px;
+  width: 100%;
+  text-align: right;
+  color: darkgray;
+  margin-top: -30px;
+}

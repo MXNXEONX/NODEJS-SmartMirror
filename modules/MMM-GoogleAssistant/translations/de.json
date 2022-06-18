@@ -1,0 +1,24 @@
+{
+  "NO_RESPONSE" : "Entschuldigung, das habe ich nicht verstanden.",
+  "NO_AUDIO_RESPONSE" : " ",
+  "TOO_SHORT" : "Entschuldigung, das habe ich nicht verstanden.",
+  "CONVERSATION_ERROR" : "Kommunikationsfehler: Falsche Mikrofonkonfiguration",
+  "QUERY_REPLY" : "Google Assistant wird aktiviert.",
+  "QUERY_HELP" : "Mit `/query` können Texteingaben an Google Assistant übermittelt werden.",
+
+  "STOP_HELP": "Beendet eventuelle Aktivität der erweiterten Anzeige.",
+  "STOP_EXT": "Beende erweiterte Anzeige.",
+
+  "DADDY": "Papa @bugsounet sagt… Nein, nein und nochmals nein!!!",
+
+  "GALoading": "Lade...",
+  "GAReady": "Bereit!",
+  "GABegin": "Hallo, wie kann ich helfen?",
+  "GAContinue": "Ich höre...",
+  "GAErrorRecipe": "[FATAL] Fehler beim Laden des Rezepts: {VALUES}",
+  "GAErrorCredentials": "[FATAL] Assistant: credentials.json fehlt",
+  "GAErrorTokenGA": "[FATAL] Token Assistant: tokenGA.json fehlt",
+
+  "ShellExecError": "ShellExec gibt Fehler zurück.",
+  "ShellExecDone": "ShellExec erfolgreich ausgeführt."
+}

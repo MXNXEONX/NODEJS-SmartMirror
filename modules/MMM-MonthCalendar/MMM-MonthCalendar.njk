@@ -1,0 +1,16 @@
+<div class="calendar-daysinweek xsmall bright">
+    {%for day in weekdays %}
+    <div>{{ day }}</div>
+    {% endfor %}
+</div>
+<div class="calendar-days xsmall">
+    {%for day in prefill %}
+    <div class="prefill">{{ day }}</div>
+    {% endfor %}
+    {%for day in days %}
+    <div {{ "today" if day == today}}>{{ day }}</div>
+    {% endfor %}
+    {%for day in postfill %}
+    <div class="postfill">{{ day }}</div>
+    {% endfor %}
+</div>

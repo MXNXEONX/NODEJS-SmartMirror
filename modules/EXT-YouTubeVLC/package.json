@@ -1,0 +1,34 @@
+{
+  "name": "EXT-YouTubeVLC",
+  "version": "1.0.2",
+  "rev": "220401",
+  "description": "YouTube Player with VLC for MagicMirror",
+  "main": "EXT-YouTubeVLC.js",
+  "scripts": {
+    "token": "installer/token.sh",
+    "preinstall": "installer/preinstall.sh",
+    "postinstall": "installer/postinstall.sh",
+    "update": "installer/update.sh"
+  },
+  "keywords": [
+    "magic mirror",
+    "module",
+    "YouTube"
+  ],
+  "author": "bugsounet",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugsounet/EXT-YouTubeVLC"
+  },
+  "bugs": {
+    "url": "https://forum.bugsounet.fr"
+  },
+  "dependencies": {
+    "@bugsounet/cvlc": "^1.0.5",
+    "he": "^1.2.0",
+    "open": "^6.4.0",
+    "r-json": "^1.2.10",
+    "youtube-api": "^3.0.1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "MMM-GoogleAssistant",
+  "version": "4.0.4",
+  "rev": "220409",
+  "description": "An embedded Google Assistant on MagicMirror.",
+  "main": "MMM-GoogleAssistant.js",
+  "scripts": {
+    "preinstall": "installer/preinstall.sh",
+    "postinstall": "installer/postinstall.sh",
+    "update": "installer/update.sh",
+    "token": "installer/token.sh",
+    "list": "node installer/list.js",
+    "delete": "node installer/delete.js",
+    "register": "node installer/register.js"
+  },
+  "keywords": [
+    "magic mirror",
+    "module",
+    "google assistant",
+    "voice",
+    "embedded",
+    "assistant for device"
+  ],
+  "author": "bugsounet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://forum.bugsounet.fr/category/137/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugsounet/MMM-GoogleAssistant"
+  },
+  "homepage": "https://wiki.bugsounet.fr/en/MMM-GoogleAssistant",
+  "dependencies": {
+    "@bugsounet/secure-ga-v4": "^1.0.1"
+  }
+}

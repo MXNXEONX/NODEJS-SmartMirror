@@ -1,0 +1,44 @@
+{
+  "name": "Gateway",
+  "version": "2.1.1",
+  "rev": "220610",
+  "description": "An embedded Gateway for MMM-GoogleAssistant for MagicMirror.",
+  "main": "Gateway.js",
+  "scripts": {
+    "preinstall": "installer/preinstall.sh",
+    "postinstall": "installer/postinstall.sh",
+    "update": "installer/update.sh",
+    "rebuild": "installer/rebuild.sh"
+  },
+  "keywords": [
+    "magic mirror",
+    "module",
+    "Google",
+    "plugins",
+    "Gateway"
+  ],
+  "author": "bugsounet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://forum.bugsounet.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugsounet/Gateway"
+  },
+  "homepage": "https://wiki.bugsounet.fr/en/Gateway",
+  "dependencies": {
+    "@bugsounet/nat-api": "^1.0.1",
+    "express-session": "^1.17.2",
+    "jsoneditor": "^9.7.4",
+    "magicmirror-rebuild": "^1.0.5",
+    "node-pty": "^0.10.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "pm2": "^5.2.0",
+    "semver": "^7.3.7",
+    "systeminformation": "^5.11.9",
+    "xterm": "^4.18.0",
+    "xterm-addon-fit": "^0.5.0"
+  }
+}
